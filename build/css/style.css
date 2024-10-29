@@ -1,0 +1,36 @@
+*{
+    text-transform: capitalize;
+}
+
+input,
+textarea{
+    text-transform: none !important;
+}
+
+form-check-label,
+.form-check-input{
+    cursor: pointer;
+}
+
+.alert,
+.alert > *{
+    text-transform: capitalize;
+}
+
+.form-check .form-check-box{
+    cursor: pointer;
+}
+
+.btn.disabled {
+    cursor: not-allowed;
+}
+
+.alert{
+    position: absolute;
+    top: 85px;
+    color: #fff;
+    width: 100%;
+    border-color: #0a9573;
+    font-weight: bold;
+    background-color: rgba(10, 149, 114, 0.918);
+}
